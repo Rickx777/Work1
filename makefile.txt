@@ -1,0 +1,8 @@
+strtest: Work1.c
+	gcc Work1.c -o strtest
+
+run: strtest
+	./strtest
+
+clean:
+	rm *~
